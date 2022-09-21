@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <link href="./styles/styles.css" rel="stylesheet">
+    <title>Something!</title>
+    <script defer src = './js/appFunctions.js'></script>
+  </head>
+  <body>
+    <div class='mainApp'>
+      <div class='topBar'>
+        <div class='titleBar'>
+          <button id='showHideMenus' class='toggleButton'></button>
+          <img src='./images/user.ico' alt="">
+          <div class="title">
+            My App Top Bar
+          </div>
+        </div> 
+        <div class="titleBarBtns">
+          <button id ="minimizeBtn" class="topBtn minimizeBtn"></button>
+          <button id ="maxResBtn" class="topBtn maximizeBtn"></button>
+          <button id ="closeBtn" class="topBtn closeBtn"></button>
+        </div> 
+      </div> 
+        <div class="contentPages">
+          <img class='colorPalette' src='images/rectangle.jpg' width="300" height="1920">     <div class="contentAtea">
+            <div id="mySidebar" class="leftMenu">
+              <button id ="testGo" class="testGo">
+                <scrip src = './srcgo/test.go'></script>       
+              </button>
+            </div> 
+        </div>
+      </div>
+    </div>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js">
+    </script>
+     <!-- Pc resource -->
+    <div id="footer">
+      <div class="box">
+        <span class="label">CPU (%)</span>
+        <span id="cpu">-</span>
+        <span class="label">Free Mem (%)</span>
+        <span id="mem">-</span>
+        <span class="label">Total Mem (GB)</span>
+        <span id="total-mem">-</span>
+      </div>
+    </div>
+  </body>
+  </html>
